@@ -39,7 +39,7 @@ p {
 /* Estilização do Header */
 
 header {
-  background-image: url(../images/Header-Background-Large.png);
+  background-image: url(./images/Header-Background-Large.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
