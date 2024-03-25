@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #23272a;
+  /* width: 380px; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #23272a;
+  /* width: 380px; */
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Estilização do Header */
+
+header {
+  background-image: url(../images/Header-Background-medium.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 4.375em 1.5em;
+  gap: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Luckiest Guy";
+  color: #fff;
+  width: 315px;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+header p {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+#botoes-header {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#bt-download {
+  background: #fff;
+  color: #23272a;
+  width: 300px;
+  height: 54px;
+  border-radius: 28px;
+  border: none;
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+#bt-open {
+  background: #23272a;
+  color: #fff;
+  width: 300px;
+  height: 54px;
+  border-radius: 28px;
+  border: none;
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+/* Estilização da seção principal */
+
+main {
+  background-color: #fff;
+}
+
+.section-one {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 24px 0;
+}
+
+.ilustration-1 {
+  padding: 0;
+  align-self: center;
+}
+
+.info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: center;
+  max-width: 350px;
+}
+
+.section-two {
+  background: #f6f6f6;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 24px 0;
+}
+
+.ilustration-2 {
+  padding: 0;
+  align-self: center;
+}
+
+.info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: center;
+  max-width: 350px;
+}
+
+.section-three {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 24px 0;
+}
+
+.ilustration-3 {
+  padding: 0;
+  align-self: center;
+}
+
+.info3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: center;
+  max-width: 350px;
+}
+
+.section-three p {
+  grid-area: text;
+  max-width: 350px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section-four {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 40px 24px;
+}
+
+.ilustration-4 {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+.info4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.info4 h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Luckiest Guy";
+  max-width: 600px;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  align-self: center;
+}
+
+.info4 p {
+  padding: 0;
+  margin: 0;
+  max-width: 800px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Estilização do rodapé */
+footer {
+  background: #23272a;
+  display: flex;
+  width: auto;
+  height: 140px;
+  padding: 40px 120px 40px 120px;
+  justify-content: center;
+  align-items: center;
+}
